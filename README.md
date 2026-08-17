@@ -111,7 +111,7 @@ A Power BI dashboard visualizes charges distribution, cost drivers, and regional
 ## Installation
 
 ```
-git clone <...>
+git clone [MarwaBrian](https://github.com/MarwaBrian/insurance_charges_prediction.git)
 cd insurance-charges-prediction
 pip install -r requirements.txt
 ```
