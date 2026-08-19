@@ -85,10 +85,13 @@ insurance_charges_prediction/
 |---  requirements.txt
 |--- data/
 │   |--- raw/                   Original dataset
-|---  notebooks/
-│---  underwriting.ipynb           Exploratory data analysis, Model training, tuning, and evaluation
-|---  outputs/
+│   |--- sim_data/                   simulated dataset
+│--- underwriting.ipynb           Exploratory data analysis, Model training, tuning, and evaluation
+|---  models/
 │   |---  model.pkl              Trained Random Forest pipeline
+|--- my_dag.py                   Airflow file for scheduled dataset generation
+|--- simulate.py                 simulation for data
+
 ```
 
 ## Tools and Technologies
